@@ -1,0 +1,64 @@
+.shop {
+    min-height: 500px;
+    width: 100%;
+    background-color: rgb(228, 223, 217);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../../image/shopping-img.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shopcard {
+    position: relative;
+}
+
+.shopbtn1 {
+    position: absolute;
+    top: 56%;
+    left: 13%;
+    height: 50px;
+    width: 265px;
+    background-color: rgb(246, 185, 71) !important;
+    color: black !important;
+    border: none !important;
+    font-weight: bold !important;
+}
+
+/* Single Shop */
+
+.singleImg {
+    height: 500px;
+    width: 90%;
+    overflow: hidden;
+    transition: all 1s;
+}
+
+.singleImg img {
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+    object-fit: cover;
+    cursor: pointer;
+}
+.singleImg img:hover {
+    transform: scale(1.5);
+    transition: all 1s ease-in-out;
+}
+.shop_btn12{
+    height: 60px !important;
+    width: 150px !important;
+    font-weight: bold !important;
+    background-color: rgb(246, 185, 71) !important;
+    border: none !important;
+}
+
+@media screen and (min-width:320px) and (max-width:480px) {
+    .shopbtn1{
+        top: 45%;
+        left: 5%;
+    }
+    
+}

@@ -1,0 +1,95 @@
+.ourblog {
+    min-height: 500px;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../../image/blog.jpg');
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    color: white !important;
+}
+
+.ourblog1 {
+    min-height: 1000px;
+    width: 100%;
+    background-color: rgb(250, 247, 243);
+}
+
+.blogbtn1 {
+    height: 35px;
+    width: 150px;
+    font-size: 15px;
+    background-color: black;
+    border: none;
+    border-radius: 6px;
+    color: white;
+}
+
+.blogbtn1:hover {
+    background-color: rgb(113, 38, 57);
+}
+
+.wellness {
+    height: 400px;
+    width: 100%;
+    background-color: rgb(229, 223, 216);
+    display: flex;
+    justify-content: center;
+}
+
+.wellnessBtn {
+    padding: 6px 25px !important;
+    background-color: rgb(241, 169, 33) !important;
+    color: black !important;
+    border: none !important;
+}
+
+.wellnessBtn:hover {
+    background-color: rgb(113, 38, 57) !important;
+    color: white !important;
+}
+
+
+.wellnessBtn2 {
+    /* padding: 10px 25px !important; */
+    height: 50px;
+    width: 85% !important;
+    background-color: rgb(241, 169, 33) !important;
+    color: black !important;
+    border: none !important;
+    font-weight: bold !important;
+    margin-top: 20px;
+    transition: all 0.3s;
+}
+
+.wellnessBtn2:hover {
+    background-color: rgb(146, 236, 219) !important;
+    color: white !important;
+}
+
+.well_icon {
+    display: flex;
+    margin: 30px 0 0 40px;
+}
+.well_icon p a {
+    text-decoration: none;
+}
+.well_icon p {
+    padding-top: 7px;
+    height: 55px;
+    width: 55px;
+    color: white;
+    font-size: 20px;
+    background-color: black;
+    margin: 0 0px 0 10px;
+    border-radius: 50%;
+}
+.well_icon p:hover{
+    background-color: rgb(113, 39, 56);
+}

@@ -1,0 +1,512 @@
+/* Home / Hero  */
+
+.img1 {
+    min-height: 700px;
+    width: 100%;
+    background-image: url('./images/Hero-1.jpg');
+    object-fit: cover;
+    padding: 200px 0px 0px 120px;
+    text-align: left;
+}
+
+.care {
+    color: white;
+    width: 40%;
+    height: 50%;
+}
+
+.btn1 {
+    height: 50px;
+    width: 150px;
+    background-color: rgb(241, 169, 33);
+    color: black;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    transition: all 0.3s;
+}
+
+.btn1:hover {
+    background-color: rgb(158, 239, 221);
+    transform: translateY(-10px);
+    box-shadow: 0px 1px 1px 1px black;
+
+}
+
+.friend {
+    min-height: 900px;
+    width: 100%;
+    background-color: rgb(113, 39, 56);
+}
+
+.card1 {
+    border: none !important;
+    background: transparent !important;
+    color: white !important;
+    margin-left: 20px !important;
+    transition: all 0.5s;
+}
+
+.card1:hover {
+    transform: translateY(-8px);
+}
+
+.btn2 {
+    background-color: rgb(158, 239, 221) !important;
+    height: 60px;
+    width: 160px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.btn2:hover {
+    background-color: rgb(220, 149, 36) !important;
+}
+
+/* Pet Profiles */
+
+.petname {
+    color: rgb(106, 72, 82);
+}
+
+.petname:hover {
+    color: rgb(220, 149, 36);
+}
+
+.card3:hover {
+    background-color: white !important;
+}
+
+.petimg {
+    height: 380px;
+    object-fit: cover;
+    padding: 20px;
+}
+
+.cardBtn {
+    height: 60px;
+    width: 200px;
+    font-weight: bold;
+    font-size: 17px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(220, 149, 36);
+    transition: all 0.5s;
+}
+
+.cardBtn:hover {
+    background-color: rgb(123, 234, 215);
+}
+
+/* Donate */
+
+.donate {
+    min-height: 2300px !important;
+    width: 100%;
+    background-color: rgb(228, 222, 216);
+    padding-top: 90px
+}
+
+.donate1 {
+    min-height: 1200px;
+    width: 100%;
+    background-color: rgb(245, 241, 237);
+    padding-top: 80px;
+    border-radius: 10px;
+}
+
+.img3 {
+    height: 270px;
+    width: 100%;
+    position: relative;
+}
+
+.img3 img {
+    height: 260px;
+    width: 550px;
+    object-fit: cover;
+}
+
+.img3::after {
+    content: "";
+    position: absolute;
+    top: 110%;
+    left: 8%;
+    width: 85%;
+    height: 2px;
+    background-color: rgb(228, 222, 216);
+}
+
+.progress1 p {
+    text-align: left;
+    margin: 50px 0 0 90px;
+    font-weight: bold;
+}
+
+.progress2 {
+    height: 28px;
+    width: 85%;
+    background-color: white;
+    border-radius: 30px;
+    margin: 30px 0 0 90px;
+}
+
+.bar1 {
+    height: 28px;
+    width: 25%;
+    background-color: rgb(123, 234, 215);
+    border-radius: 30px;
+}
+
+.progress3 {
+    height: 50px;
+    width: 85%;
+    background-color: rgb(249, 248, 248);
+    text-align: left;
+    padding: 12px 0 0 50px;
+    margin: 30px 0 0 90px;
+}
+
+.input1 {
+    height: 65px;
+    width: 85%;
+    margin: 30px 0 30px 10px;
+    border-radius: 10px;
+    border: 1px solid;
+    outline: none;
+    border-color: bisque;
+    padding-left: 18px;
+    font-weight: bold;
+}
+
+.btn4 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 85px;
+}
+
+.btn3 {
+    margin: 10px 10px 10px 10px !important;
+    padding: 18px 133px !important;
+    background-color: rgb(112, 39, 57) !important;
+    color: white !important;
+    font-weight: bolder !important;
+    border-radius: 7px !important;
+    border: none !important;
+}
+
+.btn3:hover {
+    background-color: rgb(241, 169, 33) !important;
+    color: black !important;
+}
+
+.btn5 {
+    margin: 10px 10px 10px 0 !important;
+    padding: 18px 72px !important;
+    background-color: rgb(112, 39, 57) !important;
+    color: white !important;
+    font-weight: bold !important;
+    border-radius: 7px !important;
+    border: none !important;
+}
+
+.btn5 button:hover {
+    background-color: rgb(241, 169, 33);
+    color: black;
+}
+
+.btn7 {
+    height: 60px;
+    margin: 30px 10px 10px 0;
+    padding: 0 30px;
+    font-size: 20px;
+    background-color: rgb(241, 169, 33);
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+}
+
+.btn7:hover {
+    background-color: rgb(123, 234, 215);
+}
+
+
+/* YOU CAN HALPE */
+
+.img4 img {
+    height: 380px;
+    width: 95%;
+    object-fit: cover;
+}
+
+.btn8 {
+    height: 60px;
+    width: 230px;
+    background-color: rgb(220, 149, 36);
+    color: black;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    transition: all 0.5s;
+
+}
+
+.btn8:hover {
+    background-color: rgb(123, 234, 215);
+    transform: translateY(-8px);
+    box-shadow: 0px 1px 1px 1px black;
+}
+
+.img5 img {
+    height: 360px;
+    width: 95%;
+    object-fit: cover;
+}
+
+.btn9 {
+    height: 60px;
+    width: 150px;
+    background-color: rgb(220, 149, 36);
+    color: black;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    transition: all 0.5s;
+}
+
+.btn9:hover {
+    background-color: rgb(123, 234, 215);
+    transform: translateY(-8px);
+    box-shadow: 0px 1px 1px 1px black;
+}
+
+.newsimg {
+    height: 300px !important;
+    width: 100% !important;
+    margin-bottom: 40px;
+}
+
+.newsimg1 {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 0px !important;
+}
+
+.newsbtn {
+    height: 55px;
+    width: 230px;
+    font-weight: bold !important;
+    border: none !important;
+    color: black !important;
+    background-color: rgb(247, 188, 77) !important;
+}
+
+.newsbtn:hover {
+    background-color: rgb(143, 237, 216) !important;
+}
+
+.newsbtn1 {
+    height: 35px;
+    width: 150px;
+    font-size: 15px;
+    background-color: black;
+    border: none;
+    border-radius: 6px;
+    color: white;
+}
+
+.newsbtn1:hover {
+    background-color: rgb(113, 38, 57);
+}
+.title{
+    width: 300px;
+}
+
+@media screen and (min-width:320px) and (max-width:480px){
+    .img1{
+        min-height: 320px;
+        width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .img3 img {
+        width: 100%;
+        height: auto;
+    }
+    .progress2{
+        margin: 0;
+    }
+    .progress3{
+        margin: 0;
+    }
+    .img1{
+        padding: 0;
+    }
+    .care {
+        width: 100%;
+        padding-left: 20px;
+    }
+    .care h1{
+        padding-top: 30px !important;
+        font-size: 30px !important;
+    }
+    .care h3{
+        font-size: 20px !important;
+        margin-bottom: 20px !important;
+    }
+    .care h5{
+        font-size: 15px !important;
+        margin-bottom: 20px !important;
+    }
+    .btn4{
+        margin: 0 !important;
+        padding: 0  !important;
+    }
+    .title1{
+        width: 277px;
+    }
+    .btn3{
+        font-weight: normal !important;
+        font-size: 14px !important;
+        width: 260px !important;
+        margin: 10px 0px !important;
+        padding: 18px 100px !important;
+
+    }
+    .btn5{
+        font-weight: normal !important;
+        font-size: 14px !important;
+        width: 100% !important;
+        height: 70px;
+        margin: 10px 15px!important;
+
+    }
+    .friend h1{
+        font-size: 25px !important;
+    }
+    .friend h5{
+        font-size: 18px !important;
+        width: 85% !important;
+    }
+    .areYou h2{
+        margin: 10px;
+        font-size: 25px !important;
+    }
+    .areYou p{
+        font-size: 16px !important;
+        padding: 0 10px !important;
+        width: 95% !important;
+    }
+    .Row1{
+        padding: 0 !important;
+    }
+    .petimg{
+        height: 259px;
+    }
+    .petname{
+        font-size: 18px;
+    }
+    .petname1{
+        font-size: 16px;
+    }
+    .petdec{
+        font-size: 14px;
+    }
+    .donate1{
+        padding: 20px 20px 0 20px;
+    }
+    .donate1 h6{
+        font-size: 13px;
+    }
+    .donate1 h1{
+        font-size: 23px;
+    }
+    .donate1 p{
+        font-size: 13px;
+    }
+    .img3 img{
+        height: 283px;
+    }
+    .progress1 p {
+        margin: 30px 0;
+        font-size: 25px;
+    }
+    .progress1 p span{
+        font-size: 25px !important;
+    }
+    .progress3{
+        height: 130px;
+        width: 100%;
+        padding: 20px 40px;
+    }
+    .progress3 p span{
+        font-size: 19px;
+    }
+    .progress3 p{
+        font-size: 16px;
+    }
+    .progress2{
+        width: 100%;
+        margin: 20px 0;
+    }
+    .input1{
+        width: 100%;
+        height: 60px;
+        margin: 20px 0;
+    }
+    .btn7{
+        height: 49px;
+        font-size: 16px;
+    }
+    .img4 img {
+        height: 208px;
+    }
+    .canhelp h6{
+        font-size: 13px !important;
+    }
+    .canhelp h2{
+        font-size: 25px !important;
+    }
+    .canhelp p{
+        font-size: 13.5px !important;
+        width: 82% !important;
+    }
+    .btn8{
+        font-size: 14px;
+        height: 53px;
+        width: 180px;
+    }
+    .seat1 p{
+        font-size: 14px !important;
+        margin: auto;
+    }
+    .seat2{
+        padding-top: 25px !important;
+    }
+    .btn9{
+        font-size: 16px;
+        height: 50px;
+        width: 120px;
+        margin-bottom: 30px;
+    }
+    .img5 img{
+        height: 208px;
+    }
+
+    /* news page */
+
+    .happy{
+        margin: 0 !important;
+        font-size: 23px;
+        padding-bottom: 20px !important;
+    }
+
+
+
+}

@@ -1,0 +1,215 @@
+/* Pets Adoption  */
+
+.adopt{
+    min-height: 700px;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../../image/adoption-1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .adopt11{
+    margin-top: 50px;
+  }
+  .looking1{
+    height: 180px;
+    width: 85%;
+    margin-left: 30px;
+    margin-top: 30px;
+    padding-top: 30px;
+    border: 1px solid rgb(215,207,200);
+    border-radius: 6px;
+  }
+  .looking1 input{
+    height: 60px;
+    width: 160px;
+    padding-left: 10px;
+    outline: none;
+    border: 1px solid rgb(215,207,200);
+    border-radius: 6px 0px 0px 6px;
+  }
+  .lookbtn{
+    height: 60px;
+    width: 50px;
+    border: none;
+    font-size: 20px;
+    color: white;
+    background-color: #712639;
+    border-radius: 0px 6px 6px 0px;  
+  }
+  .lookbtn:hover{
+    background-color: rgb(240,168,33);
+    color: black;
+  }
+  .adopt1:hover{
+    background-color: white !important;
+  }
+
+  .looking2{
+    height: 380px;
+    width: 85%;
+    background-color: #712639;
+    margin: 70px 0px 20px 30px;
+    border-radius: 6px;
+    text-align: center !important;
+  }
+
+  .looking3{
+    height: 120px;
+    width: 160px;
+    margin: 30px 0 0 50px;
+
+  }
+  .lookbtn2{
+    height: 50px;
+    width: 120px;
+    border: none;
+    background-color: rgb(240,168,33);
+    border-radius: 6px;
+    font-weight: bold;
+    margin-top: 30px;
+  }
+  .lookbtn2:hover{
+    background-color: rgb(168,239,222);
+  }
+
+  .looking4{
+    height: 540px;
+    width: 85%;
+    margin: 70px 0px 20px 30px;
+
+  }
+  .looking4 img{
+    height: 240px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 6px 6px 0  0 ;
+  }
+  .looking5{
+    height: 300px;
+    width: 100%;
+    background-color: rgb(240,168,33);
+    border-radius: 0 0 6px 6px;
+    padding: 40px 0 0 40px;
+  }
+  .looking6{
+    height: 230px;
+    width: 190px;
+  }
+  .lookbtn3{
+    height: 50px;
+    width: 120px;
+    border: none;
+    background-color: rgb(168,239,222);
+    border-radius: 6px;
+    font-weight: bold;
+  }
+  .lookbtn3:hover{
+    background-color: #712639;
+    color: white;
+  }
+  .adopt2{
+    height: 320px;
+    object-fit: cover;
+    padding: 20px;
+    border-radius: 9% !important;
+  }
+  .adopt3{
+    color: rgb(106,72,82);
+  }
+  .adopt3:hover{
+    color: rgb(220,149,36);
+  }
+  .css-heg063-MuiTabs-flexContainer {
+    justify-content: flex-end !important;
+  }
+  .css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
+    text-transform: capitalize !important;
+    background-color: rgb(240,168,33) !important;
+    color: black !important;
+    margin: 0 5px !important;
+    border-radius: 10px !important;
+    padding: 0 10px !important;
+    min-height: 35px !important;
+    min-width: 55px !important;
+  }
+  .css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected {
+    background-color: #712639 !important;
+    color: white !important;
+  }
+  .css-1aquho2-MuiTabs-indicator{
+    display: none !important;
+  }
+  .css-1h9z7r5-MuiButtonBase-root-MuiTab-root:hover{
+    color: white !important;
+    background-color: #712639 !important;
+  }
+
+  @media screen and (min-width:320px) and (max-width:420px){
+    .adopt{
+      min-height: 348px;
+    }
+    .adopt11 h1{
+      font-size: 25px;
+      margin: 30px 0 0 0;
+    }
+    .adopt11 p{
+      width: 100% !important;
+      padding: 15px 10px !important;
+    }
+    .looking1{
+      width: 100% !important;
+      margin: 0;
+    }
+    .looking2{
+      width: 100%;
+      margin: 30px 0;
+      height: 310px;
+    }
+    .looking3{
+      margin: auto;
+      width: 220px;
+    }
+    .lookbtn2{
+      margin: 0;
+    }
+    .looking4{
+      width: 100%;
+      /* height: 100px; */
+      margin: 0;
+    }
+    
+    .looking6{
+      width: 100%;
+      margin-left: -20px;
+    }
+    .css-1h9z7r5-MuiButtonBase-root-MuiTab-root{
+      margin: auto !important;
+      font-size: 11px !important;
+      font-weight: bold !important;
+    }
+    .css-13xfq8m-MuiTabPanel-root{
+      padding: 20px 0 !important;
+    }
+    .adopt2{
+      height: 280px !important;
+      width: 100% !important;
+      object-fit: cover;
+    }
+    .adopt3{
+      font-size: 17px;
+    }
+    .adopt5{
+      font-size: 17px;
+    }
+    .adopt6{
+      font-size: 13px !important;
+    }
+    
+
+    
+  }
